@@ -1,8 +1,4 @@
 
-const bar = () => {
-    return <div className="w-[1px] md:mt-[20px] mt h-[62px] bg-[#7A7A7A] mr-[19px]"></div>
-}
-
 export const DataComponent = () => {
     return (
     <div className="ml-[10px] mt-[70px] md:flex flex items-start justify-end md:mb-[30px]">
