@@ -1,6 +1,6 @@
 import { AddCard } from "./AddCard"
+import { DataComponent } from "./DataComponents"
 import { PreBuildCard } from "./PreBuildCard"
-import { SubDataComponent } from "./SubDataComponent"
 
 const bar = () => {
     return <div className="w-[1px] h-[70px] sm:h-[100px] bg-[#7A7A7A] mr-[12px]"></div>
@@ -10,14 +10,14 @@ export const CenterComponent = () => {
     return(
         <div className="flex flex-col w-full bg-white mt-[70px] sm:mt-[140px]">
             {/* // Upper Div */}
-            <div className="block md:flex md:justify-between md:items-center">
+            <div className="block lg:flex lg:justify-between lg:items-center">
                 <div className="flex flex-col pl-[20px] sm:pl-[35px] ">
-                    <p className="text-[18px] sm:text-[28px] font-[400]">Releases</p>
+                    <p className="text-[18px] sm:text-[28px] font-[400] font-RecklessNeue-Thin">Releases</p>
                     <p className="pt-[10px] text-[#565656] font-RecklessNeue-ThinItalic text-[12px] sm:text-[16px] text-wrap">Videos that you upload in collaboration with aBit appear here.</p>
                 </div>
-                <SubDataComponent />
+                <DataComponent />
             </div>
-            <div className="flex flex-col gap-3 w-full sm:flex sm:flex-row sm:gap-9 sm:pl-[35px] items-center">
+            <div className="flex flex-col gap-3 w-full sm:flex sm:flex-row sm:gap-9 sm:pl-[35px] items-center justify-center md:items-start md:justify-start mt-[50px]">
                 <AddCard />
                 <PreBuildCard />
             </div>
