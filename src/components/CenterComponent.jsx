@@ -10,7 +10,7 @@ export const CenterComponent = () => {
     return(
         <div className="flex flex-col w-full bg-white mt-[70px] sm:mt-[140px]">
             {/* // Upper Div */}
-            <div className="block md:flex md:justify-between">
+            <div className="block md:flex md:justify-between md:items-center">
                 <div className="flex flex-col pl-[20px] sm:pl-[35px] ">
                     <p className="text-[18px] sm:text-[28px] font-[400]">Releases</p>
                     <p className="pt-[10px] text-[#565656] font-RecklessNeue-ThinItalic text-[12px] sm:text-[16px] text-wrap">Videos that you upload in collaboration with aBit appear here.</p>

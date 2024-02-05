@@ -1,19 +1,19 @@
 import { DataComponent } from "./DataComponents"
 
 const bar = () => {
-    return <div className="w-[1px] h-[62px] bg-[#7A7A7A] mr-[12px]"></div>
+    return <div className="w-[1px] md:mt-[20px] mt h-[62px] bg-[#7A7A7A] mr-[19px]"></div>
 }
 
 export const SubDataComponent = () => {
     return(
-        <div className="flex mt-[30px] ml-[20px] sm:flex justify-center items-center gap-4 pr-[10px] sm:pr-[65px]">
+        <div className="flex  md:mr-[95px] sm:flex justify-center items-center gap-8 pr-[10px] sm:pr-[65px]">
                     <div className="flex items-center justify-center">
                         {bar()}
-                        <DataComponent title={"1"} data={"Shared Videos"}/>
+                        <DataComponent title={"1"} data={"Shared Videos"} type={1}/>
                     </div>
                     <div className="flex items-center justify-center">
                         {bar()}
-                        <DataComponent title={"$9510"} data={"Fund Raised"} />
+                        <DataComponent title={"$9510"} data={"Fund Raised"} type={1}/>
                     </div>
                     <div className="flex items-center justify-center">
                         {bar()}
